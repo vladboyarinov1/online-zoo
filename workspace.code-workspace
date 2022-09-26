@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../React/kamasutra/project/my-app"
+		},
+		{
+			"path": "../../../../React/kamasutra/Yo"
+		},
+		{
+			"path": "../../../cv"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}
