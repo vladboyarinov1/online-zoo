@@ -404,7 +404,7 @@ body {
 
                 &::before {
                     content: "";
-                    background-image: url('/assets/icons/Vector3.svg');
+                    background-image: url('assets/icons/Vector3.svg');
                     height: 36px;
                     width: 70px;
                     position: absolute;
@@ -640,15 +640,6 @@ progress::-webkit-progress-value {
 
         &__button {
             margin: 68px 0 45px 0;
-            // width: 298px;
-            // height: 54px;
-            // background-color: #F9804B;
-            // font-weight: 500;
-            // font-size: 16px;
-            // line-height: 140%;
-            // text-transform: uppercase;
-            // border: none;
-            // color: #FFFFFF;
             width: 298px;
             height: 54px;
             background-color: #F9804B;
