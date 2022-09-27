@@ -414,7 +414,7 @@ body {
 
 .donate__info__instruction__item::before {
   content: "";
-  background-image: url("/assets/icons/Vector3.svg");
+  background-image: url("assets/icons/Vector3.svg");
   height: 36px;
   width: 70px;
   position: absolute;
