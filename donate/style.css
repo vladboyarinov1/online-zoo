@@ -9,6 +9,7 @@
 }
 
 * a {
+  position: n;
   text-decoration: none;
   color: inherit;
 }
@@ -37,6 +38,30 @@ body {
 
 .header__logo {
   margin: 0 63px 0 0;
+  width: 82px;
+  height: 51px;
+}
+
+.header__logo__name {
+  position: relative;
+  padding: 0 4.7px 6.5px 4.7px;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1.18841px solid #FFFFFF;
+}
+
+.header__logo__name::after {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  content: "";
+  background-image: url("../assets/icons/bamboo.svg");
+  width: 12px;
+  height: 20px;
+  display: block;
 }
 
 .header__navigation__items {
@@ -306,6 +331,34 @@ input[type='number']::-webkit-inner-spin-button {
 
 .footer__left {
   padding: 0 100px 0 0;
+}
+
+.footer__left__logo {
+  margin: 0 63px 0 0;
+  width: 82px;
+  height: 51px;
+}
+
+.footer__left__logo__name {
+  position: relative;
+  padding: 0 4.7px 6.5px 4.7px;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1.18841px solid #FFFFFF;
+}
+
+.footer__left__logo__name::after {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  content: "";
+  background-image: url("../assets/icons/bamboo.svg");
+  width: 12px;
+  height: 20px;
+  display: block;
 }
 
 .footer__left__button {
