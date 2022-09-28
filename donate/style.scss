@@ -483,6 +483,12 @@ input[type='number'] {
                 padding: 10px 40px;
                 cursor: pointer;
 
+                &:hover {
+                    color: #F9804B;
+                    border: 1px solid #F9804B;
+
+                }
+
 
                 &:active {
                     color: #4B9200;
