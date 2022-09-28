@@ -74,6 +74,10 @@ body {
                 font-size: 16px;
                 margin: 0 58px 0 0;
 
+                &:first-child {
+                    color: #F9804B;
+                }
+
                 &:hover {
                     color: #F9804B;
                 }
@@ -292,6 +296,7 @@ body {
             font-weight: 500;
             text-transform: uppercase;
             color: #FFFFFF;
+            border-radius: 5px;
 
             &:hover {
                 background-color: #E47209;
@@ -373,6 +378,7 @@ input[type='number'] {
             display: inline-flex;
             justify-content: center;
             align-items: center;
+            border-radius: 5px;
 
             &:hover {
                 background-color: #E47209;
@@ -424,6 +430,10 @@ input[type='number'] {
 
                 &__item {
                     margin: 0 58px 0 0;
+
+                    &:first-child {
+                        color: #F9804B;
+                    }
 
                     &:last-child {
                         margin: 0;

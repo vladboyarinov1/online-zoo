@@ -77,6 +77,10 @@ body {
   margin: 0 58px 0 0;
 }
 
+.header__navigation__items__item:first-child {
+  color: #F9804B;
+}
+
 .header__navigation__items__item:hover {
   color: #F9804B;
 }
@@ -292,6 +296,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: #FFFFFF;
+  border-radius: 5px;
 }
 
 .donate__area__btn:hover {
@@ -379,6 +384,7 @@ input[type='number']::-webkit-inner-spin-button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 5px;
 }
 
 .footer__left__button:hover {
@@ -446,6 +452,10 @@ input[type='number']::-webkit-inner-spin-button {
 
 .footer__centre__navigation__items__item {
   margin: 0 58px 0 0;
+}
+
+.footer__centre__navigation__items__item:first-child {
+  color: #F9804B;
 }
 
 .footer__centre__navigation__items__item:last-child {
