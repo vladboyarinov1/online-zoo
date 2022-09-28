@@ -845,6 +845,11 @@ progress::-webkit-progress-value:hover {
   cursor: pointer;
 }
 
+.footer__right__form__btn:hover {
+  border: 1px solid #F9804B;
+  color: #F9804B;
+}
+
 .footer__right__form__btn:active {
   color: #4B9200;
   border: 1px solid #4B9200;

@@ -213,6 +213,7 @@ body {
             border-radius: 5px;
             cursor: pointer;
 
+
             &:hover .pets__card__item__info__meal__img {
                 bottom: 15px;
                 transition: 1s;
@@ -253,6 +254,7 @@ body {
                 overflow: hidden;
                 padding: 8px 11px 13px 16px;
                 display: flex;
+
 
                 &__txt {
                     z-index: -1;
@@ -809,6 +811,11 @@ progress::-webkit-progress-value {
                 border-radius: 5px;
                 padding: 10px 40px;
                 cursor: pointer;
+
+                &:hover {
+                    border: 1px solid #F9804B;
+                    color: #F9804B;
+                }
 
 
                 &:active {
