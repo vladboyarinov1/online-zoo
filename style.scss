@@ -51,7 +51,7 @@ body {
                 top: 20px;
                 left: 10px;
                 content: "";
-                background-image: url('assets/icons/bamboo.svg');
+                background-image: url('/assets/icons/bamboo.svg');
                 width: 12px;
                 height: 20px;
                 display: block;
@@ -196,7 +196,7 @@ body {
 
     .wath-online {
         content: "";
-        background-image: url('/assets/img/Pandabg2.png');
+        background-image: url('../assets/img/Pandabg2.png');
         display: block;
         width: 1000px;
         height: 584px;
@@ -224,7 +224,7 @@ body {
             top: 43px;
             right: 86px;
             content: "";
-            background-image: url('/assets/icons/txt1.2.svg');
+            background-image: url('assets/icons/txt1.2.svg');
             display: block;
             width: 377px;
             height: 318px;
