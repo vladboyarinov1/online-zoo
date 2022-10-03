@@ -57,7 +57,7 @@ body {
   top: 20px;
   left: 10px;
   content: "";
-  background-image: url("/assets/icons/bamboo.svg");
+  background-image: url("assets/icons/bamboo.svg");
   width: 12px;
   height: 20px;
   display: block;
@@ -114,7 +114,7 @@ body {
 
 .wath-online {
   content: "";
-  background-image: url("/assets/img/img1.2.png");
+  background-image: url("assets/img/img1.2.png");
   display: block;
   width: 1600px;
   height: 780px;
@@ -126,7 +126,7 @@ body {
 }
 
 .wath-online__img-circle {
-  background-image: url("/assets/icons/Ellipse1.svg");
+  background-image: url("assets/icons/Ellipse1.svg");
   display: block;
   width: 465px;
   height: 465px;
@@ -138,7 +138,7 @@ body {
 
 .wath-online__img-txt {
   content: "";
-  background-image: url("/assets/icons/txt1.svg");
+  background-image: url("assets/icons/txt1.svg");
   display: block;
   width: 473px;
   height: 398px;
@@ -177,7 +177,7 @@ body {
   }
   .wath-online {
     content: "";
-    background-image: url("../assets/img/Pandabg2.png");
+    background-image: url("assets/img/Pandabg2.png");
     display: block;
     width: 1000px;
     height: 584px;
@@ -192,7 +192,7 @@ body {
     top: -13px;
     right: 168px;
     content: "";
-    background-image: url("/assets/icons/Ellipse1.2.svg");
+    background-image: url("assets/icons/Ellipse1.2.svg");
     display: block;
     width: 367px;
     height: 367px;
@@ -225,7 +225,7 @@ body {
 
 .backstage__img {
   content: "";
-  background-image: url("/assets/img/bamboo.jpg");
+  background-image: url("assets/img/bamboo.jpg");
   width: 609px;
   height: 403px;
   margin: 0 87px 0 0;
@@ -280,7 +280,7 @@ body {
   }
   .backstage__img {
     content: "";
-    background-image: url("/assets/img/bamboo2.png");
+    background-image: url("assets/img/bamboo2.png");
     width: 609px;
     height: 403px;
     margin: 0 31px 0 0;
@@ -348,7 +348,7 @@ body {
 
 .pets__card__item__img__i::before {
   content: "";
-  background-image: url("/assets/img/animal1.jpg");
+  background-image: url("assets/img/animal1.jpg");
   width: 366px;
   height: 366px;
   display: block;
@@ -356,7 +356,7 @@ body {
 
 .pets__card__item__img__i.two::before {
   content: "";
-  background-image: url("/assets/img/animal2.jpg");
+  background-image: url("assets/img/animal2.jpg");
   width: 366px;
   height: 366px;
   display: block;
@@ -364,7 +364,7 @@ body {
 
 .pets__card__item__img__i.three::before {
   content: "";
-  background-image: url("/assets/img/animal3.jpg");
+  background-image: url("assets/img/animal3.jpg");
   width: 366px;
   height: 366px;
   display: block;
@@ -372,7 +372,7 @@ body {
 
 .pets__card__item__img__i.four::before {
   content: "";
-  background-image: url("/assets/img/animal4.jpg");
+  background-image: url("assets/img/animal4.jpg");
   width: 366px;
   height: 366px;
   display: block;
@@ -380,7 +380,7 @@ body {
 
 .pets__card__item__img__i.five::before {
   content: "";
-  background-image: url("/assets/img/animal5.jpg");
+  background-image: url("assets/img/animal5.jpg");
   width: 366px;
   height: 366px;
   display: block;
@@ -388,7 +388,7 @@ body {
 
 .pets__card__item__img__i.six::before {
   content: "";
-  background-image: url("/assets/img/animal6.jpg");
+  background-image: url("assets/img/animal6.jpg");
   width: 366px;
   height: 366px;
   display: block;
@@ -501,7 +501,7 @@ body {
 
 .pets__palm {
   content: "";
-  background-image: url("/assets/icons/palm.svg");
+  background-image: url("assets/icons/palm.svg");
   width: 266px;
   height: 400px;
   position: absolute;
@@ -511,7 +511,7 @@ body {
 
 .pets__strelitzia {
   content: "";
-  background-image: url("/assets/icons/strelitzia.svg");
+  background-image: url("assets/icons/strelitzia.svg");
   width: 368px;
   height: 275px;
   position: absolute;
