@@ -545,42 +545,42 @@ body {
   }
   .pets__card__item__img__i::before {
     content: "";
-    background-image: url("/assets/for/Rectangle2.1.png");
+    background-image: url("assets/for/Rectangle2.1.png");
     width: 294px;
     height: 294px;
     display: block;
   }
   .pets__card__item__img__i.two::before {
     content: "";
-    background-image: url("/assets/for/Rectangle2.2.png");
+    background-image: url("assets/for/Rectangle2.2.png");
     width: 294px;
     height: 294px;
     display: block;
   }
   .pets__card__item__img__i.three::before {
     content: "";
-    background-image: url("/assets/for/Rectangle2.3.png");
+    background-image: url("assets/for/Rectangle2.3.png");
     width: 294px;
     height: 294px;
     display: block;
   }
   .pets__card__item__img__i.four::before {
     content: "";
-    background-image: url("/assets/for/Rectangle2.4.png");
+    background-image: url("assets/for/Rectangle2.4.png");
     width: 294px;
     height: 294px;
     display: block;
   }
   .pets__card__item__img__i.five::before {
     content: "";
-    background-image: url("/assets/for/Rectangle2.5.png");
+    background-image: url("assets/for/Rectangle2.5.png");
     width: 294px;
     height: 294px;
     display: block;
   }
   .pets__card__item__img__i.six::before {
     content: "";
-    background-image: url("/assets/for/Rectangle2.6.png");
+    background-image: url("assets/for/Rectangle2.6.png");
     width: 294px;
     height: 294px;
     display: block;
@@ -598,7 +598,7 @@ body {
   }
   .pets__palm {
     content: "";
-    background-image: url("/assets/for/palm2.svg");
+    background-image: url("assets/for/palm2.svg");
     width: 184px;
     height: 203px;
     position: absolute;
@@ -607,7 +607,7 @@ body {
   }
   .pets__strelitzia {
     content: "";
-    background-image: url("/assets/for/strelitzia2.svg");
+    background-image: url("assets/for/strelitzia2.svg");
     width: 241px;
     height: 180px;
     position: absolute;
@@ -935,7 +935,7 @@ body {
 
 .testimonials__leav::before {
   content: "";
-  background-image: url("/assets/icons/leav.svg");
+  background-image: url("assets/icons/leav.svg");
   width: 245px;
   height: 273px;
   display: block;
@@ -980,7 +980,7 @@ body {
   }
   .testimonials__slide__leav::before {
     content: "";
-    background-image: url("/assets/for/leav_foto.svg");
+    background-image: url("assets/for/leav_foto.svg");
     width: 196px;
     height: 217px;
     display: block;
@@ -1079,7 +1079,7 @@ progress::-webkit-progress-value:hover {
   top: 20px;
   left: 10px;
   content: "";
-  background-image: url("../assets/icons/bamboo.svg");
+  background-image: url("assets/icons/bamboo.svg");
   width: 12px;
   height: 20px;
   display: block;

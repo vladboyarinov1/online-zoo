@@ -571,7 +571,7 @@ body {
 
                         &::before {
                             content: "";
-                            background-image: url('/assets/for/Rectangle2.1.png');
+                            background-image: url('assets/for/Rectangle2.1.png');
                             width: 294px;
                             height: 294px;
                             display: block;
@@ -579,7 +579,7 @@ body {
 
                         &.two::before {
                             content: "";
-                            background-image: url('/assets/for/Rectangle2.2.png');
+                            background-image: url('assets/for/Rectangle2.2.png');
                             width: 294px;
                             height: 294px;
                             display: block;
@@ -587,7 +587,7 @@ body {
 
                         &.three::before {
                             content: "";
-                            background-image: url('/assets/for/Rectangle2.3.png');
+                            background-image: url('assets/for/Rectangle2.3.png');
                             width: 294px;
                             height: 294px;
                             display: block;
@@ -595,7 +595,7 @@ body {
 
                         &.four::before {
                             content: "";
-                            background-image: url('/assets/for/Rectangle2.4.png');
+                            background-image: url('assets/for/Rectangle2.4.png');
                             width: 294px;
                             height: 294px;
                             display: block;
@@ -603,7 +603,7 @@ body {
 
                         &.five::before {
                             content: "";
-                            background-image: url('/assets/for/Rectangle2.5.png');
+                            background-image: url('assets/for/Rectangle2.5.png');
                             width: 294px;
                             height: 294px;
                             display: block;
@@ -611,7 +611,7 @@ body {
 
                         &.six::before {
                             content: "";
-                            background-image: url('/assets/for/Rectangle2.6.png');
+                            background-image: url('assets/for/Rectangle2.6.png');
                             width: 294px;
                             height: 294px;
                             display: block;
@@ -639,7 +639,7 @@ body {
 
         &__palm {
             content: "";
-            background-image: url('/assets/for/palm2.svg');
+            background-image: url('assets/for/palm2.svg');
             width: 184px;
             height: 203px;
             position: absolute;
@@ -649,7 +649,7 @@ body {
 
         &__strelitzia {
             content: "";
-            background-image: url('/assets/for/strelitzia2.svg');
+            background-image: url('assets/for/strelitzia2.svg');
             width: 241px;
             height: 180px;
             position: absolute;
@@ -984,7 +984,7 @@ body {
 
         &::before {
             content: "";
-            background-image: url('/assets/icons/leav.svg');
+            background-image: url('assets/icons/leav.svg');
             width: 245px;
             height: 273px;
             display: block;
@@ -1037,7 +1037,7 @@ body {
             &__leav {
                 &::before {
                     content: "";
-                    background-image: url('/assets/for/leav_foto.svg');
+                    background-image: url('assets/for/leav_foto.svg');
                     width: 196px;
                     height: 217px;
                     display: block;
@@ -1130,7 +1130,7 @@ progress::-webkit-progress-value {
                     top: 20px;
                     left: 10px;
                     content: "";
-                    background-image: url('../assets/icons/bamboo.svg');
+                    background-image: url('assets/icons/bamboo.svg');
                     width: 12px;
                     height: 20px;
                     display: block;
@@ -1493,6 +1493,7 @@ progress::-webkit-progress-value {
 
                     &:active {
                         color: #4B9200;
+
                     }
                 }
             }
