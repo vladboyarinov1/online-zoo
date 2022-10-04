@@ -333,6 +333,17 @@ body {
 
 }
 
+@media(max-width: 320px) {
+    body {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .header {
+        padding-left: 0;
+    }
+}
+
 .panda-img {
 
     &::before {
@@ -363,9 +374,9 @@ body {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 640px) {
     body {
-        width: 1000px;
+        width: 640px;
         margin: 0 auto;
     }
 
@@ -377,6 +388,24 @@ body {
             display: block;
             width: 640px;
             height: 335px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .panda-img {
+
+        &::before {
+            content: "";
+            background-image: url('../assets/img/panda_bgL.jpg');
+            display: block;
+            width: 320px;
+            height: 187px;
         }
     }
 }
@@ -465,6 +494,14 @@ body {
 
                 &__item {
                     margin: 60px 0px 0px 0px;
+
+                    &::before {
+                        content: "";
+                        background-image: url('../assets/icons/panda.svg');
+                        width: 268px;
+                        height: 246px;
+                        display: block;
+                    }
                 }
             }
         }
@@ -661,6 +698,7 @@ body {
 
                     &__item {
                         margin: 60px 0px 0px 0px;
+
                     }
                 }
             }
@@ -803,6 +841,152 @@ body {
                         margin: 0 10px 0 50px;
                     }
                 }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .donate {
+        padding: 30px 10px 20px 10px;
+
+        &__title {
+            font-size: 34px;
+        }
+
+        &__subtitle {
+            margin: 20px 0 30px 0;
+
+        }
+
+        &__information {
+            margin: 0 0 30px 0;
+            font-size: 24px;
+        }
+
+        &__area {
+            padding: 30px 0px 0px 0px;
+
+            &__last {
+                font-size: 13px;
+            }
+
+            &__amount {
+                margin-left: 10px;
+
+            }
+
+            &__title {
+                margin: 0 0 20px 0;
+                font-size: 24px;
+
+            }
+
+            &__subtitle {
+                text-align: center;
+                font-size: 16px;
+            }
+
+            &__diet-panda {
+                margin: 0px 0px 0px 0px;
+
+                &__quantity {
+                    margin: 70px 0 0 0;
+                    font-size: 40px;
+
+                    &__txt {
+                        width: 95px;
+                    }
+
+                    &__x {
+                        margin: 0px 0px 0 0px;
+
+                        &__item {
+                            margin: 83px 0px 0 7px;
+                        }
+                    }
+                }
+
+                &__img {
+
+                    &__item {
+                        margin: 60px 0px 0px 0px;
+                        font-size: 13px;
+
+                        &::before {
+                            content: "";
+                            background-image: url('../assets/icons/pandaL.svg');
+                            width: 151px;
+                            height: 139px;
+                            display: block;
+                            margin: -56px 0px 0px 22px;
+                        }
+                    }
+                }
+            }
+
+            &__choose {
+                width: 300px;
+                height: 14px;
+                background: #404950;
+
+                &__line {
+                    width: 262px;
+                    margin: 0px 0px 7px 0px;
+                }
+
+
+
+                &__items {
+                    padding: 0px 0px 0px 0px;
+
+                    &__item {
+                        &:first-child {
+                            display: none;
+                        }
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+
+                        &:nth-child(3) {
+                            display: none;
+                        }
+
+                        &__price {
+                            margin: 0 10px 0 0;
+                        }
+
+                        &__label::before {
+                            margin: -36px 0px 0px 9px;
+                        }
+
+                    }
+                }
+
+            }
+
+            &__subscription {
+                margin: 98px 0 0 0;
+
+                &__radio {
+                    margin: 27px 0px 0 -60px;
+
+                    &__item {
+                        margin: 0 10px 0 50px;
+                    }
+                }
+            }
+
+            &__btn {
+                border-radius: 25px;
+                margin: 27px 0 0 -9px;
             }
         }
     }
@@ -1294,6 +1478,127 @@ input[type='number'] {
 
             &__designed {
                 margin: 227px 0px 0px 73px;
+
+            }
+        }
+    }
+}
+
+@media(max-width:320px) {
+    body {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: 0;
+        min-height: 282px;
+        position: relative;
+        min-height: 334px;
+        max-width: 320px;
+
+        &__left {
+            padding: 0px;
+
+            &__logo {
+                padding: 20px 0px 0 96px;
+
+                &__name {
+                    border: none;
+                    width: 128px;
+
+                    &::after {
+                        position: absolute;
+                        top: -2px;
+                        left: 77px;
+                        content: "";
+                        background-image: url('../assets/icons/bamboo.svg');
+                        width: 12px;
+                        height: 20px;
+                        display: block;
+                    }
+                }
+            }
+
+            &__button {
+                margin: 55px 0 30px 11px;
+
+            }
+
+            &__network {
+                position: absolute;
+                top: 73px;
+                right: 40px;
+                display: flex;
+
+
+                &__facebook {
+                    margin: 0 30px 0 0;
+
+                    &__txt {
+                        display: none;
+                    }
+                }
+
+                &__twitter {
+                    margin: 0 30px 0 0;
+
+
+                    &__txt {
+                        display: none;
+                    }
+                }
+
+                &__instagram {
+                    margin: 0 30px 0 0;
+
+                    &__txt {
+                        display: none;
+                    }
+                }
+
+                &__youtube {
+
+                    &__txt {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &__centre {
+            margin: 0px -100 0 0px;
+
+            &__navigation {
+
+                &__items {
+                    &__item {
+                        font-size: 15px;
+                        margin: 20px 30px 0 0;
+
+                        &:first-child {
+                            margin: 20px 30px 0 12px;
+                        }
+
+                        &:last-child {
+                            margin: 20px 0px 0 0px;
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+        &__right {
+            margin: 0px 0px 0px 0px;
+
+            &__form {
+                display: none;
+            }
+
+            &__designed {
+                margin: 201px 0px 0px -198px;
 
             }
         }
