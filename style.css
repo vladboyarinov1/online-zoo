@@ -232,7 +232,7 @@ body._lock {
   }
   .header__menu-body__logo__item::before {
     content: "";
-    background-image: url("/assets/icons/bamboo2.svg");
+    background-image: url("assets/icons/bamboo2.svg");
     width: 10px;
     height: 16px;
     top: 27px;
@@ -477,7 +477,7 @@ body._lock {
 
 .backstage__info__icon-flower::before {
   content: "";
-  background-image: url("/assets/icons/flower1.jpg");
+  background-image: url("assets/icons/flower1.jpg");
   width: 204px;
   height: 592px;
   position: absolute;
@@ -539,7 +539,7 @@ body._lock {
     display: block;
   }
   .backstage__info__icon-flower::before {
-    background-image: url("/assets/icons/flower_foto1.jpg");
+    background-image: url("assets/icons/flower_foto1.jpg");
     width: 132px;
     height: 466px;
     top: 12px;
