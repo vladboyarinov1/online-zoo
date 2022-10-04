@@ -52,7 +52,7 @@ body {
                 top: 20px;
                 left: 10px;
                 content: "";
-                background-image: url('assets/icons/bamboo.svg');
+                background-image: url('../assets/icons/bamboo.svg');
                 width: 12px;
                 height: 20px;
                 display: block;
@@ -131,7 +131,7 @@ body {
 
     &::before {
         content: "";
-        background-image: url('/assets/img/bgDonate.jpg');
+        background-image: url('..//assets/img/bgDonate.jpg');
         display: block;
         width: 1600px;
         height: 390px;
@@ -149,7 +149,7 @@ body {
 
         &::before {
             content: "";
-            background-image: url('assets/img/panda_bg2.png');
+            background-image: url('../assets/img/panda_bg2.png');
             display: block;
             width: 1000px;
             height: 390px;
@@ -273,7 +273,7 @@ body {
                 &__item {
 
                     &:hover {
-                        background-image: url('assets/icons/roller_icon.svg');
+                        background-image: url('../assets/icons/roller_icon.svg');
                         width: 40px;
                         height: 40px;
                         display: block;
@@ -296,14 +296,6 @@ body {
 
                         cursor: pointer;
 
-                        // &:hover {
-                        //     position: absolute;
-                        //     background-image: url('/assets/icons/roller_icon.svg');
-                        //     width: 40px;
-                        //     height: 40px;
-                        //     display: block;
-                        //     // margin: -29px 0px 0px 0px;
-                        // }
 
                         &::after {
                             content: "";
@@ -331,54 +323,6 @@ body {
                 }
             }
         }
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //     &__items {
-        //         display: flex;
-        //         
-
-        //         &__input {
-        //             display: block;
-        //             width: 10px;
-        //             height: 10px;
-        //             background: #FFEE2E;
-        //             // border-radius: 50px;
-        //             margin: -9px 30px 0px 30px;
-
-        //             &:hover {
-        //                 background-color: rgb(255, 115, 0);
-        //             }
-
-        //             &__price {}
-        //         }
-        //     }
-
-        //     &__line {
-        //         display: inline-block;
-        //         width: 915px;
-        //         height: 2px;
-        //         background: #00ff40;
-        //         margin: 0 auto;
-        //     }
-
-        //     &__price {
-        //         display: flex;
-        //         justify-content: space-between;
-        //         margin: 12px 0 0 0;
-
-        //         &__item {
-        //             font-weight: 500;
-        //             font-size: 26px;
-        //             line-height: 140%;
-        //             text-transform: uppercase;
-        //             color: #333B41;
-        //         }
-        //     }
-        // 
-
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 
         &__amount {
@@ -584,7 +528,7 @@ input[type='number'] {
                     top: 20px;
                     left: 10px;
                     content: "";
-                    background-image: url('assets/icons/bamboo.svg');
+                    background-image: url('../assets/icons/bamboo.svg');
                     width: 12px;
                     height: 20px;
                     display: block;
@@ -786,7 +730,7 @@ input[type='number'] {
                         top: 20px;
                         left: 10px;
                         content: "";
-                        background-image: url('assets/icons/bamboo.svg');
+                        background-image: url('../assets/icons/bamboo.svg');
                         width: 12px;
                         height: 20px;
                         display: block;
