@@ -1,15 +1,13 @@
-// const slides = document.querySelectorAll('.testimonials__slide'),
-//       slidesWrapper = document.querySelector('.testimonials__slider-wripper'),
-//       slidesField = document.querySelector('.testimonials__slider-inner'),
-//       width = window.getComputedStyle(slidesWrapper).width;
-// let offset = 0;
+const iconMenu = document.querySelector('.header__menu-burger');
 
-// slidesField.style.width = 100 * slides.lenght + '%';
-// slidesField.style.display = 'flex';
-// slidesField.style.transition = '0.5s all';
+if (iconMenu) {
+    const menuBody = document.querySelector('.header__menu-body');
 
-// slidesWrapper.style.overflow = 'hidden';
+    iconMenu.addEventListener('click', function(e) {
+        document.body.classList.toggle('_lock');
+        iconMenu.classList.toggle('_active');
+        menuBody.classList.toggle('_active');
+    });
+}
 
-// slides.forEach(slide => {
-//     slide.style.width = width;
-// });
+
