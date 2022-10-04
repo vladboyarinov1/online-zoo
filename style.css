@@ -442,7 +442,7 @@ body._lock {
     margin: 0 auto;
   }
   .wath-online {
-    background-image: url("/assets/img/pandabg4.jpg");
+    background-image: url("assets/img/pandabg4.jpg");
     width: 320px;
     height: 186px;
     overflow: visible;
