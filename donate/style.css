@@ -20,6 +20,10 @@ body {
   margin: 0 auto;
 }
 
+body._lock {
+  overflow: hidden;
+}
+
 .header {
   background-color: #000000;
   display: -webkit-box;
@@ -221,7 +225,7 @@ body {
   }
   .header__menu-body__logo__item::before {
     content: "";
-    background-image: url("/assets/icons/bamboo2.svg");
+    background-image: url("../assets/icons/bamboo2.svg");
     width: 10px;
     height: 16px;
     top: 27px;
@@ -252,7 +256,7 @@ body {
     top: 14px;
     left: 20px;
     content: "";
-    background-image: url("assets/icons/bamboo3.svg");
+    background-image: url("../assets/icons/bamboo3.svg");
     width: 8px;
     height: 14px;
     display: block;
@@ -285,7 +289,7 @@ body {
 
 .panda-img::before {
   content: "";
-  background-image: url("..//assets/img/bgDonate.jpg");
+  background-image: url("../assets/img/bgDonate.jpg");
   display: block;
   width: 1600px;
   height: 390px;
