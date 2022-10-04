@@ -115,7 +115,7 @@ body {
 
 .panda-img::before {
   content: "";
-  background-image: url("/assets/img/bgDonate.jpg");
+  background-image: url("assets/img/bgDonate.jpg");
   display: block;
   width: 1600px;
   height: 390px;
@@ -128,7 +128,7 @@ body {
   }
   .panda-img::before {
     content: "";
-    background-image: url("/assets/img/panda_bg2.png");
+    background-image: url("assets/img/panda_bg2.png");
     display: block;
     width: 1000px;
     height: 390px;
