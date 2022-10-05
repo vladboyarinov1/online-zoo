@@ -138,6 +138,10 @@ body {
     }
 
     .header {
+        min-width: 600px;
+        z-index: 10;
+        position: absolute;
+        position: fixed;
         background-color: #000000;
         display: flex;
         padding: 2px 20px;
@@ -340,7 +344,13 @@ body {
     }
 
     .header {
-        padding-left: 0;
+        .header {
+            padding-left: 0;
+            min-width: 300px;
+            z-index: 10;
+            position: absolute;
+            position: fixed;
+        }
     }
 }
 
