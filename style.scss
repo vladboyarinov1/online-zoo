@@ -2040,7 +2040,8 @@ body {
                 padding: 0;
                 padding: 10px 18px 10px 18px;
                 width: 577px;
-                height: 309px;
+                height: 24px;
+                overflow: hidden;
             }
         }
 
@@ -2099,8 +2100,9 @@ body {
             &__publication-txt {
                 padding: 0;
                 padding: 10px 18px 10px 18px;
-                width: 299px;
-                height: 109px;
+                width: 278px;
+                height: 24px;
+                overflow: hidden;
             }
         }
 
