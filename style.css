@@ -2597,6 +2597,9 @@ progress::-webkit-progress-value:hover {
   .footer__centre {
     margin: 0px -100 0 0px;
   }
+  .footer__centre__navigation__items {
+    padding-top: 20px;
+  }
   .footer__centre__navigation__items__item {
     font-size: 15px;
     margin: 20px 30px 0 0;
