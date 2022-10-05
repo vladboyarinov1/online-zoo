@@ -130,6 +130,10 @@ body._lock {
     margin: 0 auto;
   }
   .header {
+    min-width: 600px;
+    z-index: 10;
+    position: absolute;
+    position: fixed;
     background-color: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -301,6 +305,10 @@ body._lock {
   }
   .header {
     padding-left: 0;
+    min-width: 300px;
+    z-index: 10;
+    position: absolute;
+    position: fixed;
   }
 }
 
