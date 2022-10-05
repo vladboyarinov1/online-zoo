@@ -2492,11 +2492,20 @@ progress::-webkit-progress-value:hover {
     top: 12px;
     right: 20px;
   }
+  .footer__left__network__facebook {
+    margin: 0 0 13px 0;
+  }
   .footer__left__network__facebook__txt {
     display: none;
   }
+  .footer__left__network__twitter {
+    margin: 0 0 13px 0;
+  }
   .footer__left__network__twitter__txt {
     display: none;
+  }
+  .footer__left__network__instagram {
+    margin: 0 0 13px 0;
   }
   .footer__left__network__instagram__txt {
     display: none;
@@ -2565,19 +2574,19 @@ progress::-webkit-progress-value:hover {
     display: flex;
   }
   .footer__left__network__facebook {
-    margin: 0 30px 0 0;
+    margin: 0 23px 0 0;
   }
   .footer__left__network__facebook__txt {
     display: none;
   }
   .footer__left__network__twitter {
-    margin: 0 30px 0 0;
+    margin: 0 23px 0 0;
   }
   .footer__left__network__twitter__txt {
     display: none;
   }
   .footer__left__network__instagram {
-    margin: 0 30px 0 0;
+    margin: 0 23px 0 0;
   }
   .footer__left__network__instagram__txt {
     display: none;

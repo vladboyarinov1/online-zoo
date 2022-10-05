@@ -478,6 +478,7 @@ body {
     body {
         width: 640px;
         margin: 0 auto;
+
     }
 
     .wath-online {
@@ -2790,13 +2791,15 @@ progress::-webkit-progress-value {
                 right: 20px;
 
                 &__facebook {
+                    margin: 0 0 13px 0;
+
                     &__txt {
                         display: none;
                     }
                 }
 
                 &__twitter {
-
+                    margin: 0 0 13px 0;
 
                     &__txt {
                         display: none;
@@ -2804,6 +2807,7 @@ progress::-webkit-progress-value {
                 }
 
                 &__instagram {
+                    margin: 0 0 13px 0;
 
                     &__txt {
                         display: none;
@@ -2895,8 +2899,9 @@ progress::-webkit-progress-value {
                 display: flex;
 
 
+
                 &__facebook {
-                    margin: 0 30px 0 0;
+                    margin: 0 23px 0 0;
 
                     &__txt {
                         display: none;
@@ -2904,7 +2909,7 @@ progress::-webkit-progress-value {
                 }
 
                 &__twitter {
-                    margin: 0 30px 0 0;
+                    margin: 0 23px 0 0;
 
 
                     &__txt {
@@ -2913,7 +2918,7 @@ progress::-webkit-progress-value {
                 }
 
                 &__instagram {
-                    margin: 0 30px 0 0;
+                    margin: 0 23px 0 0;
 
                     &__txt {
                         display: none;
