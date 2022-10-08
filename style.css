@@ -428,14 +428,14 @@ body._lock {
     background-image: url("assets/icons/Ellipse640svg.svg");
     width: 238px;
     height: 238px;
-    top: 10px;
+    top: 39px;
     right: 68px;
   }
   .wath-online__img-txt {
     background-image: url("assets/icons/watchTxt2.svg");
     width: 242px;
-    height: 204px;
-    top: 38px;
+    height: 205px;
+    top: 76px;
     right: 21px;
   }
   .wath-online__btn {
