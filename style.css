@@ -2019,7 +2019,7 @@ body._lock {
   }
   .testimonials__leav1::before {
     content: "";
-    background-image: url("assets/icons//leav_foto-2.svg");
+    background-image: url("assets/icons/leav_foto-2.svg");
     width: 117px;
     height: 134px;
     display: block;
