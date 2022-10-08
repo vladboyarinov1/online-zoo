@@ -2123,7 +2123,13 @@ body {
 
                 &:last-child {
                     margin: 0;
+                    // display: none;
+
                 }
+
+                // &:nth-child(1) {
+                //     display: none;
+                // }
 
                 &__close {
                     position: absolute;
