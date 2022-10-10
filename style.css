@@ -892,8 +892,6 @@ body._lock {
   -ms-grid-columns: (0.2fr)[3];
       grid-template-columns: repeat(3, 0.2fr);
   overflow: hidden;
-  border: 1px solid #a6ff00;
-  overflow: hidden;
 }
 
 .pets .pets__swiper-button-prev {
