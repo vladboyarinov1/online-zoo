@@ -1,12 +1,6 @@
 
 
 //slider Pets
-
-
-
-
-
-
 //Modal
 
 const modalTrigger  = document.querySelectorAll('.testimonials__slide'),
@@ -76,8 +70,17 @@ const swiper = new Swiper('.testimonials__container', {
         },
     },
     loop:true,
+    // effect: 'coverflow',
+
+    // coverflowEffect: {
+    //     rotate: 30,
+    //     slideShadows: false,
+    // },
+   
 
 });
+
+
 
 
 

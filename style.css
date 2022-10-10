@@ -153,7 +153,6 @@ body._lock {
     width: 18px;
     height: 10px;
     cursor: pointer;
-    z-index: 6;
   }
   .header__menu-burger span, .header__menu-burger::before, .header__menu-burger::after {
     left: 0;
@@ -1289,9 +1288,6 @@ body._lock {
     -webkit-transition: 1s;
     transition: 1s;
   }
-  .pets__card__item .pets__swiper-container {
-    display: none;
-  }
   .pets__btn {
     margin: 80px 0 100px 0;
   }
@@ -1313,6 +1309,9 @@ body._lock {
   }
   .pets__btn {
     margin: 0 0 60px 0;
+  }
+  .pets .pets__swiper-container {
+    display: none;
   }
 }
 
@@ -2034,7 +2033,7 @@ body._lock {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.698);
+    background-color: rgba(83, 83, 83, 0.835);
     top: 0;
     left: 0;
   }
@@ -2170,7 +2169,7 @@ body._lock {
     width: 117px;
     height: 134px;
     display: block;
-    z-index: 1000;
+    z-index: 1;
     position: absolute;
     bottom: -182px;
     right: 0px;
@@ -2236,7 +2235,7 @@ body._lock {
     width: 52px;
     height: 64px;
     display: block;
-    z-index: 1000;
+    z-index: 1;
     position: absolute;
     bottom: -144px;
     right: -1px;
