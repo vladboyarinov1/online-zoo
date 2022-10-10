@@ -1,4 +1,7 @@
+//burger
+
 const iconMenu = document.querySelector('.header__menu-burger');
+const closeBurger = document.querySelector('.header__menu-body');
 
 if (iconMenu) {
     const menuBody = document.querySelector('.header__menu-body');
@@ -8,7 +11,21 @@ if (iconMenu) {
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
     });
+    closeBurger.addEventListener('click', (e) => {
+        if(e.target == closeBurger){
+            menuBody.classList.toggle('_active');
+            iconMenu.classList.toggle('_active');
+        }
+    });
 }
+
+//slider Pets
+
+
+
+
+
+
 //Modal
 
 const modalTrigger  = document.querySelectorAll('.testimonials__slide'),
@@ -39,11 +56,34 @@ modal.addEventListener('click', (e) => {
 });
 
 
-const swiper = new Swiper('.swiper-container', {
+const SwiperPets = new Swiper('.pets__swiper-container', {
+    navigation:{
+        nextEl:'.pets__swiper-button-prev',
+        prevEl:'.pets__swiper-button-next',
+    },
+    scrollbar: false,
+    grabCursor:true,
+    breakpoints:{
+       
+        1001:{
+            slidesPerView:1,
+        },
+        1000:{
+            slidesPerView:1,
+        },
+    },
+    loop:true,
+
+});
+
+//slider Testimonials
+
+const swiper = new Swiper('.testimonials__container', {
     scrollbar: {
-        el: '.swiper-scrollbar',
+        el: '.testimonials__swiper-scrollbar',
         draggable:true,
     },
+    navigation:false,
     grabCursor:true,
     breakpoints:{
        
@@ -56,4 +96,8 @@ const swiper = new Swiper('.swiper-container', {
     },
     loop:true,
 
-  });
+});
+
+
+
+  

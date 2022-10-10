@@ -239,9 +239,12 @@ body {
             }
 
             &__ul {
+                display: inline-block;
+
                 &__li {
                     color: #333B41;
                     margin: 0 0 15px 0;
+
                 }
             }
 
@@ -745,12 +748,19 @@ body {
 
 //pets
 .pets {
+    overflow: hidden;
+    margin: 0 0px;
+
+
     &__card {
-        padding: 0 0 0 220px;
-        display: grid;
-        grid-template-columns: repeat(3, 0.2fr);
+
+        display: none;
+        // padding: 0 0 0 220px;
+        // display: grid;
+        // grid-template-columns: repeat(3, 0.2fr);
 
         &__item {
+
             max-width: 366px;
             position: relative;
             margin: 0 30px 20px 0;
@@ -959,6 +969,61 @@ body {
         right: 0px;
         bottom: 0px;
     }
+
+    .swiper__pagination__progress__fill {
+        background-color: #1c8651;
+    }
+
+    .pets__swiper-container {
+        overflow: hidden;
+        width: 1400px;
+        z-index: 1900;
+
+    }
+
+    .pets__swiper-wrapper {
+        padding: 0 0 0 220px;
+    }
+
+    .pets__swiper-slide {
+        display: grid;
+        grid-template-columns: repeat(3, 0.2fr);
+        overflow: hidden;
+        border: 1px solid rgb(166, 255, 0);
+        overflow: hidden;
+    }
+
+    .swiper-pagination {}
+
+    .pets__swiper-button-prev {
+        top: 10px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .pets__swiper-button-next {
+        top: 10px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .pets__swiper-scrollbar {
+        display: none;
+    }
+
+    .swiper-scrollbar-drag {
+        background: #FE9013;
+        border-radius: 5px;
+
+        &:active {
+            background: #4B9200;
+            cursor: pointer;
+        }
+    }
 }
 
 @media(max-width:1000px) {
@@ -969,9 +1034,10 @@ body {
 
     .pets {
         &__card {
-            padding: 0 0 0 30px;
-            display: grid;
-            grid-template-columns: repeat(3, 0.2fr);
+            display: none;
+            // padding: 0 0 0 30px;
+            // display: grid;
+            // grid-template-columns: repeat(3, 0.2fr);
 
             &__item {
                 max-width: 366px;
@@ -1045,13 +1111,13 @@ body {
         }
 
         &__right {
-            top: 375px;
-            right: 345px;
+            top: 396px;
+            right: 347px;
         }
 
         &__left {
-            top: 375px;
-            left: 360px;
+            top: 396px;
+            left: 335px;
 
         }
 
@@ -1074,7 +1140,67 @@ body {
             right: 0;
             bottom: 0;
         }
+
+        .swiper__pagination__progress__fill {
+            background-color: #1c8651;
+        }
+
+        .pets__swiper-container {
+            overflow: hidden;
+            width: 1400px;
+            padding: 0 30px 0 30px;
+
+        }
+
+        .pets__swiper-wrapper {
+            // padding: 0 30px 0 10px;
+            padding: 0;
+        }
+
+        .pets__swiper-slide {
+            display: grid;
+            grid-template-columns: repeat(3, 0.2fr);
+            overflow: hidden;
+            height: 100%;
+
+        }
+
+        .swiper-pagination {}
+
+        .pets__swiper-button-prev {
+            top: 0px;
+            display: block;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .pets__swiper-button-next {
+            top: 0px;
+            display: block;
+
+            &::after {
+                display: none;
+
+            }
+        }
+
+        .pets__swiper-scrollbar {
+            display: none;
+        }
+
+        .swiper-scrollbar-drag {
+            background: #FE9013;
+            border-radius: 5px;
+
+            &:active {
+                background: #4B9200;
+                cursor: pointer;
+            }
+        }
     }
+
 }
 
 @media(max-width:640px) {
@@ -1084,12 +1210,15 @@ body {
     }
 
     .pets {
-        padding: 0 20px 0 20px;
+        // padding: 0 20px 0 20px;
+        padding: 0;
 
         &__card {
+
             padding: 0px;
             display: grid;
             grid-template-columns: repeat(2, 0.2fr);
+            display: none;
 
             &__item {
                 max-width: 285px;
@@ -1159,7 +1288,6 @@ body {
                         }
                     }
                 }
-
             }
         }
 
@@ -1169,14 +1297,14 @@ body {
         }
 
         &__right {
-            top: 353px;
-            right: 238px;
+            top: 379px;
+            right: 235px;
             padding: 11px 0 20px 0;
         }
 
         &__left {
-            top: 353px;
-            left: 245px;
+            top: 379px;
+            left: 231px;
             padding: 11px 0 20px 0;
 
         }
@@ -1191,6 +1319,69 @@ body {
             background-image: url('assets/icons/strelitzia3.1.svg');
             width: 150px;
             height: 128px;
+        }
+
+        .swiper__pagination__progress__fill {
+            background-color: #1c8651;
+        }
+
+        .pets__swiper-container {
+            display: block;
+            overflow: hidden;
+            width: 650px;
+            padding: 0 15px;
+
+        }
+
+        .pets__swiper-wrapper {
+            // padding: 0 30px 0 10px;
+            padding: 0;
+        }
+
+        .pets__swiper-slide {
+            display: grid;
+            grid-template-columns: repeat(2, 0.2fr);
+            overflow: hidden;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        .swiper-pagination {}
+
+        .pets__swiper-button-prev {
+            top: 0px;
+            display: block;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .pets__swiper-button-next {
+            top: 0px;
+            display: block;
+
+            &::after {
+                display: none;
+
+            }
+        }
+
+        .pets__swiper-scrollbar {
+            display: none;
+        }
+
+        .swiper-scrollbar-drag {
+            background: #FE9013;
+            border-radius: 5px;
+
+            &:active {
+                background: #4B9200;
+                cursor: pointer;
+            }
         }
     }
 }
@@ -1280,6 +1471,11 @@ body {
                             transition: 1s;
                         }
                     }
+                }
+
+                .pets__swiper-container {
+                    display: none;
+
                 }
 
             }
@@ -1971,13 +2167,13 @@ body {
         background-color: #1c8651;
     }
 
-    .swiper-container {
+    .testimonials__container {
         overflow: hidden;
     }
 
-    .swiper-wrapper {}
+    .testimonials__wrapper {}
 
-    .swiper-slide {
+    .testimonials__swiper-slide {
         height: 400px;
         display: block;
         overflow: visible;
@@ -1986,15 +2182,15 @@ body {
 
     .swiper-pagination {}
 
-    .swiper-button-prev {
+    .testimonials__swiper-button-prev::after {
         display: none;
     }
 
-    .swiper-button-next {
+    .swiper-button-next::after {
         display: none;
     }
 
-    .swiper-scrollbar {
+    .testimonials__swiper-scrollbar {
         margin: 21px 0 0 0;
         position: relative;
         left: 50%;
@@ -2360,7 +2556,6 @@ body {
 
 
 }
-
 
 @media(max-width:1000px) {
     body {
@@ -3193,62 +3388,3 @@ progress::-webkit-progress-value {
         }
     }
 }
-
-// .testimonials {
-//     padding: 100px 30px 140px 30px;
-
-//     &__modal {
-//         display: none;
-//     }
-
-//     &__title {
-//         margin: 0 0 30px 0;
-//     }
-
-//     &__slider-wripper {
-//         display: none;
-//     }
-
-//     &__slider-inner {
-//         display: flex;
-//     }
-
-//     &__slide {
-//         overflow: hidden;
-//         margin: 0 33px 0 0;
-//         max-width: 293px;
-//         height: 391px;
-
-//         &:nth-child(3) {
-//             margin: 0 30px 0 0;
-//         }
-
-//         &:last-child {
-//             display: none;
-//         }
-
-//         &__user-info {
-//             margin: 10px 0px 0 16px;
-//             display: flex;
-//         }
-
-//         &__btn {
-//             margin: 52px 0 0 0;
-//         }
-
-//         &__leav {
-//             &::before {
-//                 content: "";
-//                 background-image: url('assets/for/leav_foto.svg');
-//                 width: 196px;
-//                 height: 217px;
-//                 display: block;
-//                 z-index: 1000;
-//                 position: absolute;
-//                 bottom: 0px;
-//                 right: 0px;
-//                 overflow: hidden;
-//             }
-//         }
-//     }
-// }
