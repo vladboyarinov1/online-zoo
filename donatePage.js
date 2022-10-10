@@ -5,6 +5,9 @@ let inputRes = document.querySelector('.donate__area__subscription__window'),
     rezultatRadio = '',
     valuesRadio = '';
 
+inputRes.oninput = function() {
+    this.value = this.value.substr(0, 4)
+}
 
 window.onclick = function onclickRadio() {
     for (var i = 0; i < nameRadio.length; i++) {
