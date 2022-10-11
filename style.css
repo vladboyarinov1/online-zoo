@@ -188,6 +188,7 @@ body._lock {
             transform: rotate(-45deg) translate(0px, -50%);
     background-color: #333B41;
     top: 11px;
+    z-index: 1000;
   }
   .header__menu-burger._active::after {
     bottom: 50%;
@@ -195,6 +196,7 @@ body._lock {
             transform: rotate(45deg) translate(0px, 50%);
     background-color: #333B41;
     top: 10px;
+    z-index: 1000;
   }
   .header__menu-body {
     display: block;
@@ -205,13 +207,14 @@ body._lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #E5E5E5;
+    background-color: #fffbfb;
     opacity: 1;
     -webkit-transform: translate(-100%, 0px);
             transform: translate(-100%, 0px);
     -webkit-transition: left 0.3 ease 0s;
     transition: left 0.3 ease 0s;
     overflow: auto;
+    z-index: 10;
   }
   .header__menu-body._active {
     -webkit-transform: translate(0px, 0px);
