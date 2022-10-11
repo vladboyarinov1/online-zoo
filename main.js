@@ -48,6 +48,7 @@ const SwiperPets = new Swiper('.pets__swiper-container', {
         },
     },
     loop:true,
+    speed: 2000,
 
 });
 
@@ -70,13 +71,7 @@ const swiper = new Swiper('.testimonials__container', {
         },
     },
     loop:false,
-    // effect: 'coverflow',
-
-    // coverflowEffect: {
-    //     rotate: 30,
-    //     slideShadows: false,
-    // },
-   
+    speed: 2000,
 
 });
 
