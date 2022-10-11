@@ -1932,12 +1932,21 @@ body._lock {
 
 .testimonials .testimonials__container {
   overflow: hidden;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.testimonials .testimonials__wrapper {
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .testimonials .testimonials__swiper-slide {
   height: 400px;
   display: block;
   overflow: visible;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .testimonials .testimonials__swiper-button-prev::after {

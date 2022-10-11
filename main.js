@@ -69,7 +69,7 @@ const swiper = new Swiper('.testimonials__container', {
             slidesPerView:3,
         },
     },
-    loop:true,
+    loop:false,
     // effect: 'coverflow',
 
     // coverflowEffect: {

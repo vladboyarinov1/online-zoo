@@ -2164,14 +2164,18 @@ body {
 
     .testimonials__container {
         overflow: hidden;
+        transition-duration: .5s;
     }
 
-    .testimonials__wrapper {}
+    .testimonials__wrapper {
+        transition-duration: .5s;
+    }
 
     .testimonials__swiper-slide {
         height: 400px;
         display: block;
         overflow: visible;
+        transition-duration: .5s;
 
     }
 
