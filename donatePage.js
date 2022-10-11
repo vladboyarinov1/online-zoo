@@ -34,8 +34,6 @@ inputRes.addEventListener('input', () => {
         }
     }  
 });
-console.log(document.head.nextSibling); 
-
 
 
 
